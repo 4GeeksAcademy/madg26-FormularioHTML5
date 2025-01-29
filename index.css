@@ -1,0 +1,33 @@
+<div class="container text-start">
+<div class="row align-items-start">
+    <div class="col-6">
+        <label class="form-control" for="PrimerNombre"><strong>First Name</strong></label>
+        <input class="form-control" type="text" id="PrimerNombre" placeholder="" />
+    </div>
+    <div class="col-6">
+        <label class="form-control" for="Apellido"><strong>Last Name</strong></label>
+        <input class="form-control" type="text" id="Apellido" placeholder="" />
+    </div>
+</div>
+</div>
+<div class="row-6 mt-1">
+                    <p><strong>We accept</strong></p>
+                    <div class="row container text-start">
+                        <div class="col-6">
+                            <label class="form-label" for="mc"></label>
+                            <input type="radio" id="mc" name="payment" />
+                            <i class="fa-brands fa-cc-mastercard"></i>
+
+                            <label class="form-label" for="visa"></label>
+                            <input type="radio" id="visa" name="payment" />
+                            <i class="fa-brands fa-cc-visa"></i>
+
+                            <label class="form-label" for="apple"></label>
+                            <input type="radio" id="apple" name="payment" />
+                            <i class="fa-brands fa-cc-apple-pay"></i>
+                            <label class="form-label" for="american"></label>
+                            <input type="radio" id="american" name="payment" />
+                            <i class="fa-brands fa-cc-amex"></i>
+
+                        </div>
+                    </div>
